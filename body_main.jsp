@@ -5,20 +5,20 @@
 <%! String greeting = "꾸팡.COM에 오신것을 환영합니다.";
 	String tagline = "하단 페이지 : 확인";%>
 	<div class="jumbotron">
-		생략…
+		IKEA에 오신걸 환영합니다.
 	</div>
 
  <div class="card bg-dark text-white">
     <img src="image/Ikea app.jpg" class="card-img" alt="...">
     <div class="card-img-overlay">
-    <h5 class="card-title">그래픽 카드 이벤트</h5>
-    <p class="card-text">출처 : 다나와</p>
+    <h5 class="card-title">모바일 앱 출시</h5>
+    <p class="card-text">출처 : 이케아</p>
   </div>
      <div class="list-group">
-      <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
-        지포스 3060 시리즈
+      <a href="https://www.ikea.com/kr/ko/campaigns/ikea-pub152ac1c0?itm_campaign=seasonality&itm_element=sb&itm_content=homepage" target="_blank" class="list-group-item list-group-item-action active" aria-current="true">
+        낭만의 계절, 캠핑으로 떠나요~
       </a>
-      <a href="#" class="list-group-item list-group-item-action">지포스 3070 시리즈</a>
-      생략….
+      <a href="https://www.ikea.com/kr/ko/live-shopping/" target="_blank" class="list-group-item list-group-item-action">매주 목요일 오후 2시, IKEA live!</a>
+      A disabled link item
     </div>
   </div>
