@@ -20,6 +20,13 @@
 					Product product = listOfProducts.get(i);
 			%>
 			<div class="col-md-4">
+                <div class="card bg-dark text-white">
+                        <img src="image/product/ikea1.jpg" class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                        <h5 class="card-title">ikea bed sample</h5>
+                        <p class="card-text">출처 : 구글 검색</p>
+                        </div>
+                        </div>
 				<h3><%=product.getPname()%></h3>
 				<p><%=product.getDescription()%>
 				<p><%=product.getUnitPrice()%>원
