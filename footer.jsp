@@ -1,8 +1,6 @@
-<%@ page contentType = "text/html;charset=utf-8" %>
-
-
+<%@ page contentType = "text/html; charset=utf-8" %>
 <footer class="container">
-	<p>&copy; 쇼핑몰 대표 : 이름, 고유번호 : 학번, 연락처 : 이메일 주소<br> 
+	<p>&copy; 쇼핑몰 대표 : 조성민, 고유번호 : 20201021, 연락처 : 010-8225-6717 이메일 주소 : tjdalsquf8@naver.com<br> 
             
         <%
             Date day = new java.util.Date();
