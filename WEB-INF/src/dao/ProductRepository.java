@@ -27,12 +27,38 @@ public class ProductRepository {
 		tablet.setManufacturer("ikea");
 		tablet.setUnitsInStock(1000);
 		tablet.setCondition("Old");
-		
+        
+		Product picture = new Product("P1237", "그림", 39000);
+		picture.setDescription("그림, 사슴들, 50x70 cm");
+		picture.setCategory("pictures");
+		picture.setManufacturer("ikea");
+		picture.setUnitsInStock(1000);
+		picture.setCondition("Old");    
+        
+		Product cloth = new Product("P1238", "옷", 59900);
+		cloth.setDescription("목욕가운, 다크그레이, S/M");
+		cloth.setCategory("cloths");
+		cloth.setManufacturer("ikea");
+		cloth.setUnitsInStock(1000);
+		cloth.setCondition("Old"); 
+        
+		Product kitchen = new Product("P1239", "그릇", 7900);
+		kitchen.setDescription("그릇, 혼합 색상, 10 cm");
+		kitchen.setCategory("bowl");
+		kitchen.setManufacturer("ikea");
+		kitchen.setUnitsInStock(1000);
+		kitchen.setCondition("Old");         
+
 		// 위와 같이 상품 초기화 하고 아래에 상품을 추가
 
 		listOfProducts.add(phone);
 		listOfProducts.add(notebook);
 		listOfProducts.add(tablet);
+        listOfProducts.add(picture);
+        listOfProducts.add(cloth);
+        listOfProducts.add(kitchen);
+        
+
 		// listOfProducts.add(상품명);
 	}
 
