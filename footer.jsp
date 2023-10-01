@@ -3,7 +3,7 @@
 
 	
   <footer class="container">
-     <p> <br> &copy; 쇼핑몰 대표 : 홍길동, 고유번호 : 20111234, 연락처 : admin@nate.com <br> 
+     <p> <br> &copy; 쇼핑몰 대표 : 조성민, 고유번호 : 20201021, 연락처 : 010-8225-6717 <br> 
         <%
     	ShopTime time = new ShopTime();
          %>    
