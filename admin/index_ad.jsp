@@ -1,7 +1,6 @@
 <%@ page contentType = "text/html; charset=utf-8" %>
 <%@ page buffer="1kb" autoFlush="true"%>
 <%@ page import="java.util.Date"%>
-
 <html>
 <head>
 
@@ -18,10 +17,11 @@
 <title>개인쇼핑몰</title>
 </head>
 <body>	<%-- JSP 주석 처리 --%>
-    <%@ include file="top_banner.jsp" %>
-   	<%@ include file="top_menu.jsp" %>
-	<%@ include file="body_main.jsp" %>	
-   	<%@ include file="footer.jsp" %>
+    <%@ include file="top_banner_ad.jsp" %>
+   	<%@ include file="top_menu_ad.jsp" %>
+	<%@ include file="body_main_ad.jsp" %>	
+   	<%@ include file="footer_ad.jsp" %>
+    <%@ include file="footer_ad.jsp" %>
     현재 페이지 버퍼 용량 : <%= out.getBufferSize() %> <br>
     남은 페이지 버퍼 용량 : <%= out.getRemaining() %>
 </body>
