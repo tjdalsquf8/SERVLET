@@ -19,7 +19,7 @@ public class ProductRepository {
 		Bed.setManufacturer("ikea");
 		Bed.setUnitsInStock(1000);
 		Bed.setCondition("New");
-        BED.setFilename("P1234.jpg");
+        Bed.setFilename("P1234.jpg");
         
     	Product table = new Product("P1235", "보조테이블", 39900);
 		table.setDescription("보조테이블, 앤트러싸이트/다크그레이, 53x50 cm");
@@ -43,7 +43,7 @@ public class ProductRepository {
 		picture.setManufacturer("ikea");
 		picture.setUnitsInStock(1000);
 		picture.setCondition("Old");
-        pircture.setFilename("P1237.jpg");
+        picture.setFilename("P1237.jpg");
         
 		Product cloth = new Product("P1238", "옷", 59900);
 		cloth.setDescription("목욕가운, 다크그레이, S/M");
