@@ -16,7 +16,7 @@
 	</div>
     
     <div>
-        <img src="image\Ikea_logo.jpg" class="img-fluid" alt="main_image">
+        <img src="../image/Ikea_logo.jpg" class="img-fluid" alt="main_image">
     </div>
     
 	<div class="container">
