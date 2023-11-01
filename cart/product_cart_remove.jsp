@@ -5,8 +5,11 @@
 
 <%
 
-    if(session.getAtteribute("cartlist")==null)
-        response.sendRedirect("../cart/product_cart")
+    if(session.getAttribute("cartlist")==null) {
+        response.sendRedirect("../cart/product_cart.jsp");
+        return;
+
+    }
         
 	String id = request.getParameter("id");
 	if (id == null || id.trim().equals("")) {
