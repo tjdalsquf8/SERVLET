@@ -6,7 +6,7 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<title>배송 정보</title>
+    <title>배송 정보</title>
 </head>
 <body>
 	<jsp:include page="../top_menu.jsp" />
@@ -28,14 +28,20 @@
            <div class="form-group row">
 	<label class="col-sm-2">배송일</label>
 	<div class="col-sm-3">
-		<input name="shippingDate" type="text" class="form-control" />(yyyy/mm/dd)
+		<input name="shippingDate" type="date" id="date" class="form-control" />(yyyy/mm/dd)
 	</div>
 	  </div>
-	 <div class="form-group row">
-	   <label class="col-sm-2">국가명</label>
-	     <div class="col-sm-3">
-		<input name="country" type="text" class="form-control" />
-	    </div>
+<div class="form-group row">
+    <label class="col-sm-2">국가명</label>
+    <div class="col-sm-3">
+        <select name="country" class="form-control">
+            <option value="korea">대한민국</option>
+            <option value="usa">미국</option>
+            <option value="japan">일본</option>
+            <option value="china">중국</option>
+        </select>
+    </div>
+
 	 </div>
 	<div class="form-group row">
 	   <label class="col-sm-2">우편번호</label>
@@ -59,5 +65,11 @@
 	</div>
   </form>
   </div>
+    <script>
+    var currentDate = new Date();
+    currentDate.setDate(currentDate.getDate() + 2);
+    var nextDate = currentDate.toISOString().substring(0, 10);
+    document.getElementById('date').min = nextDate;
+</script>
 </body>
 </html>
