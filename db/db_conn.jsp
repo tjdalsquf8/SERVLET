@@ -10,7 +10,7 @@
 		String user = "root";
 		String password = "123654";
 
-		Class.forName("com.mysql.jdbcu.Driver");
+		Class.forName("com.mysql.jdbc.Driver");
 		conn = DriverManager.getConnection(url, user, password);
 		
 	} catch (SQLException ex) {
