@@ -61,6 +61,7 @@ public class ProductRepository {
 		kitchen.setCondition("Old");
         kitchen.setFilename("P1239.jpg");
 
+
 		// 위와 같이 상품 초기화 하고 아래에 상품을 추가
 
 		listOfProducts.add(Bed);
@@ -69,7 +70,7 @@ public class ProductRepository {
         listOfProducts.add(picture);
         listOfProducts.add(cloth);
         listOfProducts.add(kitchen);
-        
+
 		// listOfProducts.add(상품명);
 	
         
