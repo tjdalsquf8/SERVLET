@@ -18,7 +18,7 @@
 	DefaultFileRenamePolicy policy = new DefaultFileRenamePolicy();
 	MultipartRequest multi = new MultipartRequest(request, realFolder, maxSize, encType, policy);
 
-	String productId = multi.getParameter("productid");
+	String productId = multi.getParameter("productId");
 	String name = multi.getParameter("name");
 	String unitPrice = multi.getParameter("unitPrice");
 	String description = multi.getParameter("description");
@@ -27,7 +27,7 @@
 	String unitsInStock = multi.getParameter("unitsInStock");
 	String condition = multi.getParameter("condition");
 
-	Integer price;
+	Integer price;ds
 
 	if (unitPrice.isEmpty())
 		price = 0;
