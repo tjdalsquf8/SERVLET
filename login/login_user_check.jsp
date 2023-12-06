@@ -14,7 +14,7 @@
 
     if (rs.next()) {
         session.setAttribute("user_id", id);
-        response.sendRedirect("../member/member_join.jsp");
+        response.sendRedirect("../index.jsp");
     }
     else {
         response.sendRedirect("login_user_failed.jsp");
